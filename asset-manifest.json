@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Booklist-app-context/static/css/main.06a2e2ad.chunk.css",
+    "main.js": "/Booklist-app-context/static/js/main.87dec965.chunk.js",
+    "main.js.map": "/Booklist-app-context/static/js/main.87dec965.chunk.js.map",
+    "runtime-main.js": "/Booklist-app-context/static/js/runtime-main.18bba954.js",
+    "runtime-main.js.map": "/Booklist-app-context/static/js/runtime-main.18bba954.js.map",
+    "static/js/2.3b70eb2b.chunk.js": "/Booklist-app-context/static/js/2.3b70eb2b.chunk.js",
+    "static/js/2.3b70eb2b.chunk.js.map": "/Booklist-app-context/static/js/2.3b70eb2b.chunk.js.map",
+    "index.html": "/Booklist-app-context/index.html",
+    "precache-manifest.79543ca9471c6e8c76f6ed7a2cd5f1ca.js": "/Booklist-app-context/precache-manifest.79543ca9471c6e8c76f6ed7a2cd5f1ca.js",
+    "service-worker.js": "/Booklist-app-context/service-worker.js",
+    "static/css/main.06a2e2ad.chunk.css.map": "/Booklist-app-context/static/css/main.06a2e2ad.chunk.css.map",
+    "static/js/2.3b70eb2b.chunk.js.LICENSE.txt": "/Booklist-app-context/static/js/2.3b70eb2b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18bba954.js",
+    "static/js/2.3b70eb2b.chunk.js",
+    "static/css/main.06a2e2ad.chunk.css",
+    "static/js/main.87dec965.chunk.js"
+  ]
+}
