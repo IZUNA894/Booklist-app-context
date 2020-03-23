@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Navbar from "./components/navbar";
+import Bookmarks from "./components/bookmarks";
+import ThemeContextProvider from "./context/themeContext.js";
+import ToggleButton from "./components/toggleButton";
+import ToggleButtonAuth from "./components/toggleButtonAuth";
+import AuthContextProvider from "./context/authContext.js";
+import BookContextProvider from "./context/bookContext.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      <ThemeContextProvider>
+      <AuthContextProvider>
+        <Navbar/>
+        <BookContextProvider>
+          <Bookmarks/>
+        </BookContextProvider>
+        <ToggleButton/>
+        <ToggleButtonAuth/>
+      </AuthContextProvider>
+      </ThemeContextProvider>
+      </div>
+    )
+  }
 }
 
-export default App;
